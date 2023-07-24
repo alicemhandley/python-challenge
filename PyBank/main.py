@@ -57,6 +57,7 @@ with open(data_path, newline="") as csvfile:
     greatest_increase = max(profits)    
     index_greatest_increase = profits.index(greatest_increase)
     date_greatest_increase = date[index_greatest_increase]
+    #'github/ermaisgelaye
 
     # greatest decrease in profits
     greatest_decrease = min(profits)
